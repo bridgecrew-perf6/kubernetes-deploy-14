@@ -4,7 +4,7 @@ jobs:
     docker: 
       - image: circleci/buildpack-deps:stretch 
     environment: 
-      IMAGE_NAME: khadijajadmy/do-kubernetes-sample-app:latest 
+      IMAGE_NAME: khadijajadmy/do-kubernetes-sample-app 
     working_directory: ~/app 
     steps: 
       - checkout 
