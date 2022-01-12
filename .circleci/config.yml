@@ -16,7 +16,7 @@ jobs:
       - run: 
           name: Push Docker Image 
           command: | 
-            echo "$DOCKERHUB_PASS" | docker login -u "$DOCKERHUB_USERNAME" --password-stdin 
+            echo "jadmy1234" | docker login -u "khadijajadmy" --password-stdin 
             docker push khadijajadmy/do-kubernetes-sample-app  
 workflows: 
   version: 2 
